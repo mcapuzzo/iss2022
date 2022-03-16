@@ -4,10 +4,17 @@
     <fullyQualifiedTypeName name="org.junit.Test"/>
     <fullyQualifiedTypeName name="it.unibo.radarSystem22.domain.mock.LedMock"/>
     <fullyQualifiedTypeName name="it.unibo.radarSystem22.domain.interfaces.ILed"/>
-    <fullyQualifiedTypeName name="it.unibo.radarSystem22.domain.interfaces.ISonar"/>
     <fullyQualifiedTypeName name="it.unibo.radar.interfaces.IDistance"/>
-    <fullyQualifiedTypeName name="it.unibo.radarSystem22.domain.interfaces.IDistance"/>
-    <fullyQualifiedTypeName name="it.unibo.radarSystem22.domain.utils.Distance"/>
-    <fullyQualifiedTypeName name="it.unibo.radarSystem22.domain.mock.SonarMock"/>
     <fullyQualifiedTypeName name="junit.framework.Assert"/>
+    <fullyQualifiedTypeName name="it.unibo.radarSystem22.domain.interfaces.IDistance"/>
+    <fullyQualifiedTypeName name="it.unibo.radarSystem22.domain.mock.SonarMock"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="it.unibo.radarSystem22.domain.models.SonarModel"/>
+    <fullyQualifiedTypeName name="it.unibo.radarSystem22.domain.interfaces.ISonar"/>
+    <fullyQualifiedTypeName name="it.unibo.radarSystem22.domain.utils.DomainSystemConfig"/>
+    <fullyQualifiedTypeName name="it.unibo.radarSystem22.domain.concrete.SonarConcrete"/>
+    <fullyQualifiedTypeName name="it.unibo.radarSystem22.domain.utils.Distance"/>
+    <fullyQualifiedTypeName name="java.io.Reader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 </qualifiedTypeNameHistroy>
