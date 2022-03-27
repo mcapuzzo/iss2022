@@ -1,5 +1,7 @@
 package snippet;
 
 public class Snippet {
-	//g++  SonarAlone.c -l wiringPi -o  SonarAlone;
+	//g++  SonarAlone.c -l wiringPi -o  SonarAlone
+	
 }
+
