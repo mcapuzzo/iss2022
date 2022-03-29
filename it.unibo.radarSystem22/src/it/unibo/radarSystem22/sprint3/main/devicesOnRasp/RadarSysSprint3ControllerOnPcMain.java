@@ -51,6 +51,9 @@ public class RadarSysSprint3ControllerOnPcMain implements IApplication{
 		RadarSystemConfig.raspAddr          = "localhost"; //"192.168.1.9";		 	
 		//RadarSystemConfig.protcolType       = ProtocolType.udp;	
 		
+		//RadarSystemConfig.sonarPort		= 8080;
+		//RadarSystemConfig.serverPort		= 8080;
+		
 		CommSystemConfig.tracing            = false;
 	}
 	
