@@ -19,4 +19,5 @@
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="it.unibo.radarSystem22.sprint3.main.devicesOnRasp.RadarSysSprint3ControllerOnPcMain"/>
     <fullyQualifiedTypeName name="it.unibo.radarSystem22.sprint3.main.devicesOnRasp.RadarSysSprint3DevicesOnRaspMain"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>

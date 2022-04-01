@@ -1,5 +1,7 @@
 package it.unibo.radarSystem22_4.appl.main;
 
+import java.util.LinkedList;
+
 import it.unibo.radarSystem22.domain.interfaces.*;
 import it.unibo.radarSystem22.domain.utils.DomainSystemConfig;
 import it.unibo.radarSystem22_4.appl.RadarSystemConfig;
@@ -12,7 +14,7 @@ import it.unibo.radarSystem22_4.comm.utils.CommSystemConfig;
 
 public class UseSonarFromPc implements IApplication{
  	private ISonar  sonar ;
- 	
+ 	private LinkedList<Object> list;
 	@Override
 	public String getName() {
 		return this.getClass().getName() ; 
@@ -25,12 +27,24 @@ public class UseSonarFromPc implements IApplication{
 		terminate();
 	}
 	
+	public void subscribeObject(Object subscriber ) {
+		list.add(subscriber);
+	}
+	
+	public void unsubscribe(Object subscriber ) {
+		list.remove(subscriber);
+	}
+	
+	public void publish() {
+		//Iterate in list and publish
+		//for list.element in list.iteratte
+	}
+	
 	public void setup( String domainConfig, String systemConfig )  {
 		ColorsOut.outappl(" === " + getName() + " ===", ColorsOut.MAGENTA);
 		RadarSystemConfig.DLIMIT           = 80;
 		RadarSystemConfig.ctxServerPort    = 8756;
 		CommSystemConfig.protcolType = ProtocolType.tcp;
-		RadarSystemConfig.raspAddr         = "192.168.43.186";
 	}
 	
 	protected void configure() {		
